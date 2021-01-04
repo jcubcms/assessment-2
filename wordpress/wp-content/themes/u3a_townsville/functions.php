@@ -337,7 +337,7 @@ if ( ! function_exists( 'u3a_townsville_credit' ) ) {
 add_filter('loop_shop_columns', 'u3a_townsville_loop_columns');
 	if (!function_exists('u3a_townsville_loop_columns')) {
 		function u3a_townsville_loop_columns() {
-		return 3; 
+		return get_theme_mod( 'u3a_townsville_products_per_row', '3' ); 
 	}
 }
 
@@ -358,3 +358,7 @@ require get_template_directory() . '/inc/typography/ctypo.php';
 
 
 require get_template_directory() . '/inc/getstart/getstart.php';
+
+function regis_options($args) {
+   return $args;
+}

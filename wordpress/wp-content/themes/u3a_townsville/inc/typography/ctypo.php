@@ -3,7 +3,6 @@
 add_action( 'customize_register', 'u3a_townsville_typography_customize_register', 15 );
 
 
-add_action( 'customize_controls_enqueue_scripts', 'u3a_townsville_customize_controls_register_scripts' );
 add_action( 'customize_preview_init', 'u3a_townsville_customize_preview_enqueue_scripts'   );
 
 
