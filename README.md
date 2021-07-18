@@ -1,5 +1,5 @@
-# assessment-2-bhavukc
-assessment-2-bhavukc created by GitHub Classroom
+# assessment-2
+assessment-2 created by GitHub Classroom
 
 ## U3A Townsville Theme Repository
 The repository contains the contents of wp-content folder
